@@ -1,5 +1,4 @@
-span{
-  border-radius: 10%;
+.fancy-button{
   background-color:blue;
   color: white;
   padding-top: 5px;
@@ -10,10 +9,127 @@ span{
   box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
 }
 
-span:hover{
+.fancy-button:hover{
   background-color: darkblue;
 }
 
-span:active{
+.fancy-button:active{
   background-color:blue;
+}
+
+.basic-button{
+  color:white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+}
+
+.button-blue, .button-blue:active{
+  background-color:blue;
+}
+.button-blue:hover{
+  background-color: darkblue;
+}
+
+.button-gray, .button-gray:active{
+  background-color:gray;
+}
+.button-gray:hover{
+  background-color: dimgray;
+}
+
+.button-green, .button-green:active{
+  background-color:green;
+}
+.button-green:hover{
+  background-color: darkgreen;
+}
+
+.button-red, .button-red:active{
+  background-color:red;
+}
+.button-red:hover{
+  background-color: darkred;
+}
+
+.button-orange, .button-orange:active{
+  background-color:orange;
+}
+.button-orange:hover{
+  background-color: darkorange;
+}
+
+.button-cyan, .button-cyan:active{
+  background-color:darkcyan;
+}
+.button-cyan:hover{
+  background-color: cyan;
+}
+
+.basic-button-outline {
+  background-color: white;
+  border: 2px solid;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.button-outline-blue{
+  color:blue;
+  border-color:blue;
+}
+.button-outline-blue:hover{
+  background-color: blue;
+  color: white;
+}
+
+.button-outline-gray{
+  border-color:gray;
+  color:gray;
+}
+.button-outline-gray:hover{
+  color:white;
+  background-color:gray;
+}
+
+.button-outline-green{
+  border-color:green;
+  color:green;
+}
+.button-outline-green:hover{
+  color:white;
+  background-color:green;
+}
+
+.button-outline-red{
+  border-color:red;
+  color:red;
+}
+.button-outline-red:hover{
+  color:white;
+  background-color:red;
+}
+
+.button-outline-orange{
+  border-color:orange;
+  color:orange;
+}
+.button-outline-orange:hover{
+  color:white;
+  background-color:orange;
+}
+
+.button-outline-cyan{
+  border-color:darkcyan;
+  color:darkcyan;
+}
+.button-outline-cyan:hover{
+  color:white;
+  background-color:darkcyan;
 }
