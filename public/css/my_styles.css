@@ -1,0 +1,197 @@
+.button {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+
+  box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+  -webkit-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+  -moz-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+}
+
+.button:hover {
+  background-color: darkblue;
+}
+
+.button:active {
+  background-color: blue;
+}
+
+.base-button {
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+
+  box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+  -webkit-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+  -moz-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+}
+
+.base-button-blue{
+  background-color: blue;
+}
+
+.base-button-blue:hover {
+  background-color: darkblue;
+}
+
+.base-button-blue:active {
+  background-color: blue;
+}
+
+.base-button-gray{
+  background-color: gray;
+}
+
+.base-button-gray:hover {
+  background-color: darkgray;
+}
+
+.base-button-gray:active {
+  background-color: gray;
+}
+
+.base-button-green{
+  background-color: green;
+}
+
+.base-button-green:hover {
+  background-color: darkgreen;
+}
+
+.base-button-green:active {
+  background-color: green;
+}
+
+.base-button-red{
+  background-color: red;
+}
+
+.base-button-red:hover {
+  background-color: darkred;
+}
+
+.base-button-red:active {
+  background-color: red;
+}
+
+.base-button-orange{
+  background-color: orange;
+}
+
+.base-button-orange:hover {
+  background-color: yellow;
+}
+
+.base-button-orange:active {
+  background-color: orange;
+}
+
+.base-button-cyan{
+  background-color: darkcyan;
+}
+
+.base-button-cyan:hover {
+  background-color: cyan;
+}
+
+.base-button-cyan:active {
+  background-color: darkcyan;
+}
+
+.base-button-outline {
+  background-color: white;
+  padding: 5px 10px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.base-button-outline-blue{
+  color: blue;
+  border-color: blue;
+}
+
+.base-button-outline-blue:hover {
+  color: darkblue;
+  border-color: darkblue;
+}
+
+.base-button-outline-blue:active {
+  color: blue;
+  border-color: blue;
+}
+
+.base-button-outline-gray{
+  color: gray;
+  border-color: gray;
+}
+
+.base-button-outline-gray:hover {
+  color: darkgray;
+  border-color: darkgray;
+}
+
+.base-button-outline-gray:active {
+  color: gray;
+  border-color: gray;
+}
+
+.base-button-outline-green{
+  color: green;
+  border-color: green;
+}
+
+.base-button-outline-green:hover {
+  color: darkgreen;
+  border-color: darkgreen;
+}
+
+.base-button-outline-green:active {
+  color: green;
+  border-color: green;
+}
+
+.base-button-outline-red{
+  color: red;
+  border-color: red;
+}
+
+.base-button-outline-red:hover {
+  color: darkred;
+  border-color: darkred;
+}
+
+.base-button-outline-red:active {
+  color: red;
+  border-color: red;
+}
+
+.base-button-outline-orange{
+  color: orange;
+  border-color: orange;
+}
+
+.base-button-outline-orange:hover {
+  color: yellow;
+  border-color: yellow;
+}
+
+.base-button-outline-orange:active {
+  color: orange;
+  border-color: orange;
+}
+
+.base-button-outline-cyan{
+  color: darkcyan;
+  border-color: darkcyan;
+}
+
+.base-button-outline-cyan:hover {
+  color: cyan;
+  border-color: cyan;
+}
+
+.base-button-outline-cyan:active {
+  color: darkcyan;
+  border-color: darkcyan;
+}
